@@ -59,7 +59,7 @@ namespace IterationStatements
             Console.WriteLine("");
             Console.WriteLine("Decrease:");
             
-            for (int i = 199; 1 <= numbers.Count && i >= 0; i--)//start for loop here
+            for (int i = 199; i >= 0; i--)//start for loop here
             {
                     Console.WriteLine(numbers[i]);
             }
